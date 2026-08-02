@@ -1,23 +1,94 @@
 aid: red6
-name: Red6
-description: 'Red6 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: Red 6
+description: 'Red 6 (Red Six Aerospace, Inc.) is a defense technology company founded
+  in 2018 that builds outdoor, high-speed augmented reality for military aviation
+  training. Its flagship product, ATARS (Advanced Tactical Augmented Reality System),
+  pairs the EVE (Enhanced Visual Environment) helmet-mounted display — 160-degree
+  field of view, 18,000 nits, 10ms latency, full color — with an AI-driven multiplayer
+  network so real pilots in real aircraft can fly and maneuver against synthetically
+  generated adversaries in real time, in daylight. A companion system, ARCADE (Augmented
+  Reality Command and Analytic Data Environment), handles mission planning, briefing
+  and three-dimensional debrief. ATARS has been integrated or trialed on the USAF
+  F-16 and MC-130, the RAF Hawk T-2, Boeing''s AH-64E Apache CATT, and the Lockheed
+  Martin / Korea Aerospace Industries T-50/TF-50. Red 6 is ISO 9001:2015 and AS9100D
+  certified. It publishes no public developer program, API, SDK or machine-readable
+  contract — its software surface is delivered through defense programs and OEM integrations
+  rather than a self-serve developer platform.'
 url: https://raw.githubusercontent.com/api-evangelist/red6/refs/heads/main/apis.yml
+image: https://red6ar.com/wp-content/uploads/2023/01/Asset-2.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profile
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Defense
+- Aerospace
+- Augmented Reality
+- Simulation and Training
+- Military Aviation
+- Head Mounted Display
+- Artificial Intelligence
 apis: []
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/red6-domain-security.yml
+- type: Conformance
+  url: conformance/red6-conformance.yml
+- type: LLMsTxt
+  url: llms/red6-llms.txt
 - type: Website
+  url: https://red6ar.com/
+- type: Product
+  name: ATARS
+  url: https://red6ar.com/atars/
+- type: Product
+  name: Commercial Applications
+  url: https://red6ar.com/commercial-applications/
+- type: About
+  url: https://red6ar.com/vision/
+- type: Team
+  url: https://red6ar.com/team/
+- type: Blog
+  name: Newsroom
+  url: https://red6ar.com/newsroom/
+- type: BlogRSS
+  url: https://red6ar.com/feed/
+- type: PressReleases
+  url: https://red6ar.com/newsroom/press-releases/
+- type: Support
+  name: Contact Us
+  url: https://red6ar.com/contact/
+- type: Careers
+  url: https://red6ar.com/careers/
+- type: Compliance
+  name: ISO 9001:2015 and AS9100D
+  url: https://red6ar.com/iso-90012015-and-as9100d/
+- type: TermsOfService
+  url: https://red6ar.com/terms-of-use/
+- type: TermsAndConditions
+  url: https://red6ar.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://red6ar.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/red6
+- type: YouTube
+  url: https://www.youtube.com/@red6ar
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/red-6
+- type: SecondaryMarket
+  name: Forge Global
   url: https://forgeglobal.com/red6_stock/

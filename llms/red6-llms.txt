@@ -1,0 +1,41 @@
+# Red 6
+
+> Red 6 (Red Six Aerospace, Inc.) is a defense technology company founded in 2018 that builds outdoor, high-speed augmented reality for military aviation training. Its flagship product, ATARS (Advanced Tactical Augmented Reality System), pairs the EVE (Enhanced Visual Environment) helmet-mounted display with an AI-driven multiplayer network so real pilots in real aircraft can fly and maneuver against synthetically generated adversaries in real time, in daylight. ARCADE (Augmented Reality Command and Analytic Data Environment) handles mission planning, briefing and three-dimensional debrief.
+
+Red 6 publishes **no public API, SDK, developer portal, or machine-readable contract**. There is no OpenAPI, AsyncAPI, GraphQL schema, MCP server, or A2A agent card on any Red 6 host — every discovery path probed on 2026-08-02 returned 404. Its software is delivered through defense programs and OEM aircraft integrations (USAF F-16 and MC-130, RAF Hawk T-2, Boeing AH-64E Apache CATT, Lockheed Martin / KAI T-50 and TF-50) rather than a self-serve developer platform. Do not assume or invent an integration endpoint for Red 6.
+
+## Products
+
+- [ATARS](https://red6ar.com/atars/): Advanced Tactical Augmented Reality System — the EVE headset (160-degree field of view, 18,000 nits, 10ms latency, full color, 1.8% optical efficiency), an extremely low-latency waveform- and network-agnostic protocol, multiplayer synthetic threat generation, and training data capture.
+- [Commercial Applications](https://red6ar.com/commercial-applications/): outdoor AR beyond defense — entertainment and theme parks, sports training and broadcast, medical, construction, maintenance/repair/operations, gaming, retail, real estate.
+
+## Company
+
+- [Red 6](https://red6ar.com/): company home.
+- [Vision](https://red6ar.com/vision/): what the company is building toward.
+- [Team](https://red6ar.com/team/): leadership, founded by CEO Daniel Robinson, a former Royal Air Force fighter pilot and F-22 exchange pilot.
+- [Careers](https://red6ar.com/careers/): open positions.
+- [Contact](https://red6ar.com/contact/): the only inbound channel — there is no developer support desk.
+
+## News
+
+- [Newsroom](https://red6ar.com/newsroom/): news stories and press releases.
+- [Press Releases](https://red6ar.com/newsroom/press-releases/)
+- [RSS](https://red6ar.com/feed/)
+- [YouTube](https://www.youtube.com/@red6ar)
+- [LinkedIn](https://www.linkedin.com/company/red6)
+
+## Compliance and legal
+
+- [ISO 9001:2015 and AS9100D](https://red6ar.com/iso-90012015-and-as9100d/): quality management certification, issued by Perry Johnson Registrars, dated 2025-01-10.
+- [Terms of Use](https://red6ar.com/terms-of-use/)
+- [Terms and Conditions](https://red6ar.com/terms-and-conditions/)
+- [Privacy Policy](https://red6ar.com/privacy-policy/)
+- [Supplier Addendum](https://red6ar.com/supplier-addendum/)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/red6/refs/heads/main/apis.yml): the APIs.json index for this company.
+- [conformance/red6-conformance.yml](https://raw.githubusercontent.com/api-evangelist/red6/refs/heads/main/conformance/red6-conformance.yml): published certifications and negative results for API-level standards.
+- [security/red6-domain-security.yml](https://raw.githubusercontent.com/api-evangelist/red6/refs/heads/main/security/red6-domain-security.yml): probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [well-known/red6-well-known.yml](https://raw.githubusercontent.com/api-evangelist/red6/refs/heads/main/well-known/red6-well-known.yml): the /.well-known/ probe record (all 404).

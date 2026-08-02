@@ -1,0 +1,43 @@
+generated: '2026-08-02'
+method: searched
+source: https://red6ar.com/iso-90012015-and-as9100d/
+note: >-
+  Red 6 publishes no API, so there are no API-level standards (OAuth2, OIDC, RFC 9457,
+  JSON:API, OData) to assert. What it does publish is a quality-management certification
+  posture appropriate to an aerospace and defense supplier. Only certifications the
+  company publishes on its own site are recorded here.
+standards:
+- id: iso-9001-2015
+  name: ISO 9001:2015 Quality Management Systems
+  conforms: true
+  evidence: >-
+    Certification page published at https://red6ar.com/iso-90012015-and-as9100d/ with
+    a scanned certificate issued to Red Six Aerospace, Inc. by Perry Johnson Registrars
+    (PJR), dated 2025-01-10.
+  certificate: https://red6ar.com/wp-content/uploads/2025/01/2025-01-10_PJR_Red-Six-Aerospace-Inc-Final-Cert-400x518.jpg
+- id: as9100d
+  name: AS9100D Aerospace Quality Management Systems
+  conforms: true
+  evidence: >-
+    Same published certificate; AS9100D is the aerospace sector supplement to ISO 9001:2015.
+    Registrar Perry Johnson Registrars (PJR), dated 2025-01-10.
+  certificate: https://red6ar.com/wp-content/uploads/2025/01/2025-01-10_PJR_Red-Six-Aerospace-Inc-Final-Cert-400x518.jpg
+- id: oauth2
+  conforms: false
+  evidence: no public API or OAuth surface published
+- id: openid-connect
+  conforms: false
+  evidence: /.well-known/openid-configuration returned 404
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API or OpenAPI to evaluate
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: /.well-known/security.txt returned 404
+- id: a2a-agent-card
+  conforms: false
+  evidence: /.well-known/agent-card.json and /.well-known/agent.json both returned 404
+x-evidence:
+  fetched: '2026-08-02'
+  url: https://red6ar.com/iso-90012015-and-as9100d/
+  http_status: 200

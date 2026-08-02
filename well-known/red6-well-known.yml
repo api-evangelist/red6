@@ -1,0 +1,45 @@
+generated: '2026-08-02'
+method: probed
+source: live HTTPS probes of the Red 6 web host
+host: https://red6ar.com
+note: >-
+  Every /.well-known/ discovery path returned 404. Red 6 publishes no security.txt,
+  no OAuth/OIDC discovery metadata, no API catalog, no ai-plugin manifest, and no
+  A2A agent card. This is an expected result for a defense hardware/software company
+  with no public developer program. Recorded so the negative result is auditable and
+  a later round can detect a change. No documents were saved because none returned 200.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/oauth-protected-resource
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+- path: /.well-known/mcp.json
+  status: 404
+additional_hosts:
+- host: https://www.red6ar.com
+  probed:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+- host: https://api.red6ar.com
+  status: dns-nxdomain
+- host: https://developer.red6ar.com
+  status: dns-nxdomain
+- host: https://docs.red6ar.com
+  status: dns-nxdomain
+x-evidence:
+  fetched: '2026-08-02'
+  method: HTTP GET with redirects followed
