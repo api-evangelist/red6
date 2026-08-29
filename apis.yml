@@ -15,6 +15,17 @@ description: 'Red 6 (Red Six Aerospace, Inc.) is a defense technology company fo
   contract — its software surface is delivered through defense programs and OEM integrations
   rather than a self-serve developer platform.'
 url: https://raw.githubusercontent.com/api-evangelist/red6/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://red6ar.com/wp-content/uploads/2023/01/Asset-2.png
 x-type: company
 x-source: harvest:secondary-market
